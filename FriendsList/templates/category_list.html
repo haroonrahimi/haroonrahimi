@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Category List</title>
+  </head>
+  <body>
+    <div class="container">
+      Category List
+    </div>
+    <div class="container">
+      {%for category in category_list %}
+      {{category.counter}}
+      {{category.name}}<br>
+      {%endfor%}
+    </div>
+  </body>
+</html>
